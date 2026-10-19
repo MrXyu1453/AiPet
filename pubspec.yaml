@@ -1,0 +1,47 @@
+name: aining_app
+description: "AI娘篝火营地 - 大肥鱼、Claude酱、GPT娘、Gemini娘、Grok娘围火夜谈"
+publish_to: "none"
+version: 0.9.0+9
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.1.0
+  shared_preferences: ^2.3.0
+  path_provider: ^2.1.0
+  audioplayers: ^6.0.0
+  flutter_tts: ^4.2.5
+  rive: 0.13.0
+  # 本地 fork：只改了 Android 平台视图的触摸策略（见 packages/flutter_live2d/PATCH.md）
+  flutter_live2d:
+    path: packages/flutter_live2d
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  image: ^4.1.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bg/
+    - assets/avatars/
+    - assets/stickers/
+    - assets/sprites/dafeiyu/
+    - assets/sprites/claude/
+    - assets/sprites/gpt/
+    - assets/sprites/gemini/
+    - assets/sprites/grok/
+    - assets/portraits/dafeiyu/
+    - assets/portraits/claude/
+    - assets/portraits/claude/states/
+    - assets/portraits/gpt/
+    - assets/portraits/gemini/
+    - assets/portraits/grok/
+    - assets/rive/
+    - assets/live2d/dafeiyu/

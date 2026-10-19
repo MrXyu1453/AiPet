@@ -1,0 +1,157 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 1.1,
+		"Fps": 60.0,
+		"Loop": false,
+		"AreBeziersRestricted": false,
+		"CurveCount": 10,
+		"TotalSegmentCount": 20,
+		"TotalPointCount": 30,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleY",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.22,
+				12.0,
+				0,
+				1.1,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleZ",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.25,
+				-6.0,
+				0,
+				1.1,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeLOpen",
+			"Segments": [
+				0.0,
+				1.0,
+				0,
+				0.2,
+				1.25,
+				0,
+				0.8,
+				1.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeROpen",
+			"Segments": [
+				0.0,
+				1.0,
+				0,
+				0.2,
+				1.25,
+				0,
+				0.8,
+				1.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamMouthOpenY",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.2,
+				1.0,
+				0,
+				0.7,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBrowLY",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.2,
+				1.0,
+				0,
+				0.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBrowRY",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.2,
+				1.0,
+				0,
+				0.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBodyAngleX",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.25,
+				-3.0,
+				0,
+				1.1,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHairFront",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.25,
+				-4.0,
+				0,
+				1.1,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param2",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.25,
+				-1.0,
+				0,
+				1.1,
+				0.0
+			]
+		}
+	],
+	"UserData": []
+}

@@ -1,0 +1,180 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 1.9,
+		"Fps": 60.0,
+		"Loop": false,
+		"AreBeziersRestricted": false,
+		"CurveCount": 11,
+		"TotalSegmentCount": 25,
+		"TotalPointCount": 36,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleY",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.5,
+				-8.0,
+				0,
+				1.1,
+				-4.0,
+				0,
+				1.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleZ",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.5,
+				6.0,
+				0,
+				1.2,
+				3.0,
+				0,
+				1.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeLSmile",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.5,
+				1.0,
+				0,
+				1.6,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeRSmile",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.5,
+				1.0,
+				0,
+				1.6,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeLOpen",
+			"Segments": [
+				0.0,
+				1.0,
+				0,
+				0.5,
+				0.7,
+				0,
+				1.9,
+				1.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeROpen",
+			"Segments": [
+				0.0,
+				1.0,
+				0,
+				0.5,
+				0.7,
+				0,
+				1.9,
+				1.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamMouthForm",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.5,
+				0.5,
+				0,
+				1.2,
+				0.2,
+				0,
+				1.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamMouthOpenY",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.6,
+				0.2,
+				0,
+				1.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBodyAngleX",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.5,
+				3.0,
+				0,
+				1.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHairBack",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.7,
+				3.0,
+				0,
+				1.9,
+				0.0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param",
+			"Segments": [
+				0.0,
+				0.0,
+				0,
+				0.6,
+				1.0,
+				0,
+				1.4,
+				0.0
+			]
+		}
+	],
+	"UserData": []
+}

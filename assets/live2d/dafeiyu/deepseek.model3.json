@@ -1,0 +1,61 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "deepseek.moc3",
+		"Textures": [
+			"texture_00.png"
+		],
+		"Physics": "deepseek.physics3.json",
+		"DisplayInfo": "deepseek.cdi3.json",
+		"Expressions": [
+			{ "Name": "happy", "File": "happy.exp3.json" },
+			{ "Name": "happy2", "File": "happy2.exp3.json" },
+			{ "Name": "puzzled", "File": "puzzled.exp3.json" },
+			{ "Name": "relax", "File": "relax.exp3.json" },
+			{ "Name": "unhappy", "File": "unhappy.exp3.json" },
+			{ "Name": "shy", "File": "shy.exp3.json" },
+			{ "Name": "pout", "File": "pout.exp3.json" },
+			{ "Name": "surprised", "File": "surprised.exp3.json" },
+			{ "Name": "sleepy", "File": "sleepy.exp3.json" },
+			{ "Name": "smug", "File": "smug.exp3.json" },
+			{ "Name": "wink", "File": "wink.exp3.json" },
+			{ "Name": "sad", "File": "sad.exp3.json" },
+			{ "Name": "love", "File": "love.exp3.json" },
+			{ "Name": "angry", "File": "angry.exp3.json" }
+		],
+		"Motions": {
+			"Idle": [
+				{ "File": "idle.motion3.json" }
+			],
+			"Anima": [
+				{ "File": "speak.motion3.json" },
+				{ "File": "thinkend.motion3.json" },
+				{ "File": "thinking.motion3.json" }
+			],
+			"Reaction": [
+				{ "File": "nod.motion3.json" },
+				{ "File": "surprise.motion3.json" },
+				{ "File": "shy.motion3.json" },
+				{ "File": "bounce.motion3.json" },
+				{ "File": "tailwag.motion3.json" },
+				{ "File": "wave.motion3.json" }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [ "ParamEyeLOpen", "ParamEyeROpen" ]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [ "ParamMouthOpenY" ]
+		}
+	],
+	"HitAreas": [
+		{ "Id": "Head", "Name": "头" },
+		{ "Id": "Body", "Name": "身体" }
+	]
+}
